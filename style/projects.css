@@ -1,0 +1,11 @@
+html{background-color: darkgrey;}
+
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+.projectImage{
+    display:flex;
+    justify-content:space-between;
+}

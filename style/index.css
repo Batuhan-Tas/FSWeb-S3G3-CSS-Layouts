@@ -1,1 +1,109 @@
 /* CSS stillerinizi buraya girin */
+
+html{background-color: darkgrey;}
+
+
+
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    
+}
+
+.container header nav a {
+    color:black;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    padding: 40px;
+    border:5px black;
+    border-style:solid;
+    
+    
+    
+}
+
+.container header nav a:hover{
+    
+    background-color: white;
+    color:gr;
+    
+    
+}
+
+.introduction p{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.mainImage{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.altImage{
+    padding-top: 30px;
+    margin: 10px;
+    flex-basis:90%;
+    
+    
+    
+}
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer{
+position:static;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 50px;
+background-color: rgb(236, 226, 226);
+color: black;
+text-align: center;
+}
+
+footer nav a {
+    color:black;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    padding: 5px;
+    border:3px black;
+    border-style:solid;
+    line-height:50px;
+    
+    
+    
+    
+}
+
+footer nav a:hover{
+    
+    background-color: white;
+    color:gr;
+  }
