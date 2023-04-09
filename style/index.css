@@ -22,6 +22,7 @@ h2{
     justify-content: center;
     overflow:hidden;
     
+    
 }
 
 .container header nav a {
@@ -31,6 +32,7 @@ h2{
     padding: 40px;
     border:5px black;
     border-style:solid;
+    text-align: center;
     
     
     
@@ -85,7 +87,7 @@ width: 100%;
 height: 50px;
 background-color: rgb(236, 226, 226);
 color: black;
-text-align: center;
+text-align:center;
 }
 
 footer nav a {
@@ -107,3 +109,48 @@ footer nav a:hover{
     background-color: white;
     color:gr;
   }
+
+
+
+
+@media(max-width:800px) {
+    
+    .container header nav a {
+        display: block;
+        padding: 0.8rem;
+        border: 2px black;
+        border-style: solid;
+        margin: 0.3rem auto;
+    }
+
+    .contain{
+        width:30vw;
+    }
+
+  
+    .contain .altImage img{
+        
+        margin: 10px;
+              
+        
+    }
+
+    .contain .altImage {
+        width:10vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .text{
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+    
+    
+
+}
